@@ -1,0 +1,36 @@
+{
+  "name": "cypress-cucumber-baufest",
+  "version": "1.0.0",
+  "description": "Proyecto baufest of cypress with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"**/*.feature\"",
+    "test:all": "cypress run --spec \"**/*.features\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucianodegani/ProyectoCyCCMBERBAUFEST.git"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "testing"
+  ],
+  "author": "Degani Esteban Luciano",
+  "license": "FREE",
+  "bugs": {
+    "url": "https://github.com/lucianodegani/"
+  },
+  "homepage": "https://github.com/lucianodegani/#readme",
+  "dependencies": {},
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cucumber": "^7.0.0-rc.0",
+    "cypress": "^4.12.1",
+    "cypress-cucumber-preprocessor": "^2.5.5",
+    "mochawesome": "^6.2.2",
+    "mochawesome-report-generator": "^5.2.0"
+  }
+}

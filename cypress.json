@@ -1,0 +1,20 @@
+{
+    "chromeWebSecurity": false,
+
+    "testFiles": "**/*.feature",
+    "ignoreTestFiles": ["*.js", "*.ts", "*.md"],
+    "viewportWidth": 1360,
+    "viewportHeight": 790,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "reportFileName": "report",
+      "overwrite": true,
+      "html": true,
+      "json": true,
+      "charts": true
+    },
+    "video": false 
+
+    
+}
